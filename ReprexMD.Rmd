@@ -1,0 +1,28 @@
+---
+title: My manuscript
+author: trinhdhk
+date: "`r Sys.Date()`"
+output: 
+  reprex::reprex_document:
+    advertise: no
+    tidyverse_quiet: yes
+    session_info: yes
+knit: reprex::reprex_render
+---
+
+## What reprex provide
+Describe your issue very briefly here. Then show it with a minimal, self-contained example in the following R chunk.
+
+```{r}
+x <- 1
+y <- "2"
+x + y
+```
+
+Inline code is working? `r x+1`
+Plot will be automatically uploaded to imgur. Don't know whether it is good or bad thing?
+
+```{r plot}
+plot(density(rnorm(1000, 0, 1)))
+```
+
