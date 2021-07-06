@@ -3,13 +3,19 @@ title: My manuscript
 author: trinhdhk
 date: "`r Sys.Date()`"
 output: 
-reprex::reprex_document:
-  advertise: no
-  tidyverse_quiet: yes
-  session_info: yes
+  md_document:
+    variant: markdown_github
+  reprex::reprex_document:
+    advertise: no
+    tidyverse_quiet: yes
+    session_info: yes
 knit: reprex::reprex_render
 ---
-
+```{r opt, include=FALSE}
+knitr::opts_knit$set(
+  upload.fun = reprex::reprex_document()$knitr$opts_knit$upload.fun
+)
+```
 ## What reprex provide
 Describe your issue very briefly here. Then show it with a minimal, self-contained example in the following R chunk.
 
