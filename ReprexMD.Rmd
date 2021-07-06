@@ -2,12 +2,12 @@
 title: My manuscript
 author: trinhdhk
 date: "`r Sys.Date()`"
-output: md_document
-  # reprex::reprex_document:
-  #   advertise: no
-  #   tidyverse_quiet: yes
-  #   session_info: yes
-# knit: reprex::reprex_render
+output: 
+reprex::reprex_document:
+  advertise: no
+  tidyverse_quiet: yes
+  session_info: yes
+knit: reprex::reprex_render
 ---
 
 ## What reprex provide
@@ -23,6 +23,6 @@ Inline code is working? `r x+1`
 Plot will be automatically uploaded to imgur. Don't know whether it is good or bad thing?
 
 ```{r plot} 
-plot(density(rnorm(1000, 0, 1)))
+plot(density(rnorm(1000, 0, 2)))
 ```
 
