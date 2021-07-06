@@ -37,7 +37,7 @@ x + y
 Inline code is working? `r x+1`
 Plot will be automatically uploaded to imgur. Don't know whether it is good or bad thing?
 
-```{r plot}
+```{r plot} 
 plot(density(rnorm(1000, 0, 1)))
 ```
 

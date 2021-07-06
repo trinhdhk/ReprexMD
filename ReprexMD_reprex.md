@@ -1,6 +1,6 @@
 ---
 author: trinhdhk
-date: 2021-07-05
+date: 2021-07-06
 knit: "reprex::reprex_render"
 output:
   reprex::reprex_document:
@@ -28,7 +28,7 @@ Plot will be automatically uploaded to imgur. Don’t know whether it is good or
 plot(density(rnorm(1000, 0, 1)))
 ```
 
-![](https://i.imgur.com/q725DF8.png)
+![](https://i.imgur.com/fcRfgl3.png)
 
 <details style="margin-bottom:10px;">
 <summary>
