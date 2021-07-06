@@ -23,6 +23,7 @@ x + y
 
 Inline code is working? 2
 Plot will be automatically uploaded to imgur. Don’t know whether it is good or bad thing?
+Edit now
 
 ``` r
 plot(density(rnorm(1000, 0, 1)))
